@@ -4,9 +4,9 @@ public class CalculatorMain {
         int b = 20;
         Calculator cal = new Calculator();
         System.out.println("Sum of " + a + " and " + b + " is  : " + cal.add(a, b));
-        System.out.println("Sub of " + a + " and " + b + " is  : " + cal.add(a, b));
-        System.out.println("Mul of " + a + " and " + b + " is  : " + cal.add(a, b));
-        System.out.println("Div of " + a + " and " + b + " is  : " + cal.add(a, b));
+        System.out.println("Sub of " + a + " and " + b + " is  : " + cal.sub(a, b));
+        System.out.println("Mul of " + a + " and " + b + " is  : " + cal.mul(a, b));
+        System.out.println("Div of " + a + " and " + b + " is  : " + cal.div(a, b));
     }
 }
 
